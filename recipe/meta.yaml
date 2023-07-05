@@ -1,5 +1,5 @@
 {% set name = "chromedriver-autoinstaller" %}
-{% set version = "0.4.0" %}
+{% set version = "0.4.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/chromedriver-autoinstaller-{{ version }}.tar.gz
-  sha256: 57f15f40d2e356c4cb84870cb7f882283a8280118bedacbf19301dd692f672b5
+  sha256: cd1cf04e7ff1cffbcfcde18ec8bebbffcc837d560b34df102fcdf9410cc198ea
 
 build:
   entry_points:
