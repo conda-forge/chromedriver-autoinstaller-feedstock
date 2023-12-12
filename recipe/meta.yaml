@@ -22,7 +22,7 @@ requirements:
     - pip
   run:
     - python >=3.6
-    - packaging >= 23.1
+    - packaging >=23.1
 
 test:
   imports:
